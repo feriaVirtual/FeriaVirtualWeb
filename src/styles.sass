@@ -1,1 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'
+
+//Variables
+
+$font: 'Poppins', sans-serif
+$fontsize: 14px
+$black: 900
+$extrabold: 800
+$bold: 700
+$semibold: 600
+$medium: 500
+$regular: 400
+$light: 300
+
+//Generales
+    
+body
+    background: url(assets/images/bg-hero.jpg) no-repeat top
+    background-size: cover
+    font-family: $font
+    font-size: $fontsize
+
+a 
+    text-decoration: none
+
+li 
+    display: inline-block 
+
+ul, figure, p, h1 
+    margin: 0 
+    padding: 0
+
+//00css
+nav 
+    a 
+        color: white
+        display: block 
+        padding: .5em 1.2em
+        font-size: 1.2em
+
+header 
+    display: flex 
+    justify-content: space-between
+    margin-top: 40px
+
+main
+    margin-top: 80px
+    width: 600px
+    margin-left: 100px
+    h1
+        color: white
+        font-size: 5em
+        line-height: 1.2em
+    p
+        color: #F38300
+        font-size: 1.2em
+        font-weight: $medium
+        width: 70%
+        line-height: 1.8em
+
+.button
+    text-align: center
+    width: 225px
+    a
+        background-color: white
+        display: block 
+        color: #F38300
+        font-size: 1.2em
+        padding: 1.2em 2.4em
+        border-radius: 6px
+        font-weight: $semibold
+
+.content
+    width: 95%
+    margin: 0 auto
+    max-width: 1190px
+
